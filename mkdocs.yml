@@ -1,0 +1,44 @@
+site_name: 'Enjoy-LeetCode'
+repo_url: https://github.com/chyliu91/LeetCode
+site_author: 'Chay'
+copyright: '2024, Chay'
+docs_dir: 'docs'
+site_dir: 'site'
+extra:
+    version: 1.0.0
+
+
+theme: 
+    # name: 'mkdocs'
+    name: 'material'
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+    - css/extra.css
+
+plugins:
+    - search
+
+nav:
+    - 主页: index.md
+    - Pytorch:
+        - torch/Pytorch 基础/Pytorch 基础.md
+        - torch/Pytorch 神经网络/Pytorch 神经网络.md
+    - 深度学习: 
+        - 线性神经网络:
+            - ./深度学习/线性神经网络/线性回归.md
+    
+
+      
+
+
+
+ 
+   
